@@ -94,3 +94,15 @@ ul {
 .img-food {
     padding-left: 330px;
 }
+
+.li-w-s {
+    list-style-position: inside;
+    padding: 0;
+}
+
+.ol-w-s {
+    word-break: break-all;
+    margin: 0;
+    padding: 0;
+}
+
