@@ -1,9 +1,9 @@
 :root {
     --greywhite-color: rgba(201, 195, 255, 0.842);
     --violet-color: rgba(255, 255, 255, 0.712);
-    --darkviolet-color: rgb(148, 164, 255);
+    --darkviolet-color: rgb(0, 38, 255);
     --purple-color: rgba(106, 92, 133, 0.555);
-    --darkpurple-color: rgb(23, 0, 71);
+    --darkpurple-color: rgb(46, 0, 146);
 
 }
 
@@ -35,7 +35,9 @@ header {
 
 ul {
     list-style-type: none;
+    
     padding-bottom: 50px;;
+    
 
    
 }
@@ -43,12 +45,13 @@ ul {
 .li-first {
     padding-top: 100px;
     text-align: center;
+    
 }
-
 .li-first-t {
     color: var(--darkpurple-color);
     padding-top: 100px;
     text-align: center;
+    
 }
 .li-second-t,
 .li-third-t,
