@@ -1,0 +1,15 @@
+:root {
+    --greywhite-color: rgba(225, 225, 255, 0.877);
+
+
+
+
+
+
+}
+
+
+
+* {
+    background-color: var(--greywhite-color);
+}
