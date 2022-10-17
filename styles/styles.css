@@ -1,6 +1,7 @@
 :root {
-    --greywhite-color: rgba(225, 225, 255, 0.877);
-
+    --greywhite-color: rgba(201, 195, 255, 0.842);
+    --violet-color: rgba(255, 255, 255, 0.712);
+    --purple-color: rgba(106, 92, 133, 0.555);
 
 
 
@@ -9,7 +10,45 @@
 }
 
 
-
+h1 {
+    ;
+}
 * {
     background-color: var(--greywhite-color);
+    
+}
+
+.header {
+    background-color: var(--purple-color);
+    text-align: center;
+}
+header {
+    background-color: var(--violet-color);
+    padding-bottom: 30px;
+    padding-top: 10px;
+    
+}
+
+ul {
+    list-style-type: none;
+   
+}
+
+.li-first {
+    padding-top: 100px;
+    text-align: center;
+}
+.li-second {
+    text-align: center;
+    padding-right: 130px;
+}
+
+.li-third {
+    text-align: center;
+    padding-right: 230px;
+}
+
+.li-fourth {
+    text-align: center;
+    padding-left: 230px;
 }
