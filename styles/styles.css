@@ -48,10 +48,19 @@ ul {
     padding-top: 100px;
     text-align: center;
 }
-.li-first-t,
-.li-second-t
-:hover,
-.li-first-t:focus {
+.li-second-t,
+.li-third-t,
+.li-fourth-t {
+    color: var(--darkpurple-color);
+}
+.li-first-t:hover,
+.li-second-t:hover,
+.li-third-t:hover,
+.li-fourth-t:hover,
+.li-first-t:focus,
+.li-second-t:focus,
+.li-third-t:focus,
+.li-fourth-t:focus {
     color: var(--darkviolet-color);
 }
 .li-second {
