@@ -3,6 +3,7 @@
     --violet-color: rgba(255, 255, 255, 0.712);
     --darkviolet-color: rgb(40, 72, 255);
     --purple-color: rgba(106, 92, 133, 0.555);
+    --lightpurple-color: rgba(194, 164, 255, 0.466);
     --darkpurple-color: rgb(46, 0, 146);
 
 }
@@ -51,12 +52,14 @@ ul {
     color: var(--darkpurple-color);
     padding-top: 100px;
     text-align: center;
+    font-size: 15pt;
     
 }
 .li-second-t,
 .li-third-t,
 .li-fourth-t {
     color: var(--darkpurple-color);
+    font-size: 15pt;
 }
 .li-first-t:hover,
 .li-second-t:hover,
@@ -67,6 +70,7 @@ ul {
 .li-third-t:focus,
 .li-fourth-t:focus {
     color: var(--darkviolet-color);
+    font-size: 20pt;
 }
 .li-second {
     text-align: center;
@@ -81,4 +85,12 @@ ul {
 .li-fourth {
     text-align: center;
     padding-left: 230px;
+}
+
+.body {
+    background-color: var(--lightpurple-color);  
+}
+
+.img-food {
+    padding-left: 330px;
 }
