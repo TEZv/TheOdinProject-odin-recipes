@@ -99,6 +99,11 @@ ul {
     
     position:relative;
 }
+.img-food-p {
+    padding-left: 570px;
+    
+    position:relative;
+}
 
 .li-w-s {
     list-style-position: inside;
